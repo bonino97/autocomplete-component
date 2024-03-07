@@ -58,3 +58,9 @@ src
 ### Code Comments
 - Use `// TODO:` comments for personal opinions or additional tasks to be completed.
 - Use `// POINT:` comments to highlight key points or areas of interest.
+
+### Gallery
+<img width="817" alt="image" src="https://github.com/bonino97/autocomplete-component/assets/24545141/3a8a4fd9-dbaa-4f50-ab44-2ec30b3b9a13">
+
+### Links
+- Deployed Link: https://autocomplete-lib.netlify.app/
