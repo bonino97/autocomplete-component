@@ -1,14 +1,8 @@
 import { useState } from 'react';
-import Autocomplete from '@/components/Autocomplete';
-import '@/features/Fruits/index.css';
+import { Autocomplete } from '@/components';
+import { FruitsSuggestionCard } from '@/features/Fruits/components';
 
 const FRUIT_DATA = ['apple', 'banana', 'orange', 'pear', 'grape', 'pineapple'];
-
-const FruitSuggestionCard = (fruit: string) => (
-  <div className='fruit-suggestion-card'>
-    <h3>{fruit}</h3>
-  </div>
-);
 
 const FruitsAutocomplete = () => {
   const [query, setQuery] = useState<string>('');
@@ -26,7 +20,7 @@ const FruitsAutocomplete = () => {
   return (
     <Autocomplete
       data={filteredFruits || []}
-      render={FruitSuggestionCard}
+      render={FruitsSuggestionCard}
       onSelect={onSelect}
       onInputChange={setQuery}
     />

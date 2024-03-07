@@ -38,7 +38,7 @@ src
 ├── features
 │   ├── Fruits
 │   │   └── components
-│   │       └── SuperHeroSuggestionCard
+│   │       └── FruitsSuggestionCard
 │   └── SuperHero
 │       │── components
 │       │   └── SuperHeroSuggestionCard
