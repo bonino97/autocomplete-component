@@ -1,0 +1,17 @@
+.fruit-suggestion-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  min-width: 200px;
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  text-transform: capitalize;
+}
+
+.fruit-suggestion-card h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}

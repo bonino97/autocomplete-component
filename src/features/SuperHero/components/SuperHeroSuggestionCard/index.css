@@ -1,0 +1,51 @@
+.suggestion-card {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  min-width: 15rem;
+  margin-bottom: 1rem;
+}
+
+.suggestion-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.suggestion-card-content {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  padding-left: 1rem;
+}
+
+.suggestion-card h3,
+.suggestion-card p,
+.suggestion-card small {
+  margin: 0.2rem;
+}
+
+.suggestion-card h3 {
+  font-size: 1rem;
+  color: #333;
+}
+
+.suggestion-card p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.suggestion-card small {
+  font-size: 0.8rem;
+  color: #999;
+}
+
+.highlight {
+  color: #da0e0e;
+}

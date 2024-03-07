@@ -1,0 +1,11 @@
+.suggestion-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin: 1rem auto;
+  max-width: 25rem;
+  cursor: pointer;
+}
